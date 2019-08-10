@@ -2,3 +2,32 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.fx {
+    display: flex;
+}
+.j-sp-between {
+    justify-content: space-between;
+}
+.j-sp-around {
+    justify-content: space-around;
+}
+.j-center {
+    justify-content: center;
+}
+.j-end {
+    justify-content: flex-end;
+}
+.dir-column {
+    flex-direction: column;
+}
+.a-center {
+    align-items: center;
+}
+.a-end {
+    align-items: flex-end;
+}
+.wrap {
+    flex-wrap: wrap;
+}
